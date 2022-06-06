@@ -1,5 +1,19 @@
-console.log("true OR true =>",true||true);
-console.log("true OR false =>",true||false);
-console.log("false OR true =>",false||true);
-console.log("false OR false =>",false||false);
-
+var a =10;
+var b =30;
+var c =20;
+if(a>b){
+    if(a>c){
+        console.log("value of a is biggest");
+    }
+    else{
+        console.log("value of c is biggest");
+    }
+}
+else{
+    if(b>c){
+        console.log("value of b is biggest");
+    }
+    else{
+        console.log("value of c is biggest");
+    }
+} 
